@@ -1,8 +1,10 @@
 #Adrian Alfajri - 064002200009
 import math
+n = str(input("Masukkan nama kota pertama = "))
 t1 = float(input("Masukkan lattitude kota pertama = "))
 g1 = float(input("Masukkan longitude kota pertama = "))
 
+m = str(input("Masukkan nama kota kedua = "))
 t2 = float(input("Masukkan lattitude kota kedua = "))
 g2 = float(input("Masukkan longitude kota kedua = "))
 
@@ -18,5 +20,5 @@ c = 2 * math.sin(math.sqrt(a))
 r = 6371.01
 
 print('')
-print("jarak antara dua titik adalah" , c*r , "kilometer")
+print("jarak antara", n , "dan", m , "sejauh" , c*r , "kilometer")
 
